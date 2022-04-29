@@ -1,0 +1,43 @@
+doctype html
+html(lang='en')
+    head
+        link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css')
+        meta(charset='UTF-8')
+        title Journals
+        script
+            include javascripts/index.js
+    body
+        .modal-dialog
+            .modal-content
+                .modal-body
+                    div.form-group
+                        form
+                            input#search.form-control(type='text', placeholder='Search' name='name' onchange='validate(this)')
+                            div.btn-group
+                                button#byName.btn-success(onclick='onSearchName()' type="button") search by name
+                                button#byAuthor.btn-info(onclick='onSearchByAuthor()' type="button") search by author
+                        form
+                            label.text-dark(for='startDate') Start date
+                            input#startDate.form-control(type='date' value="2000-02-02")
+                            label.text-dark(for='endDate') End date
+                            input#endDate.form-control(type='date' value="2000-02-02")
+                            buttoon#byDates.btn-success(onclick="onSearchByDate()" type="button") Get by dates
+
+                        div.btn-group
+                            buttoon.btn.btn-secondary(onclick="getAll()" type="button") Get all
+                            select#authors.form-select.form-select-sm(aria-label=".form-select-sm example")
+                        a(href="/create") create new article
+                        br
+                        a(href="/rating") Rating
+
+        div
+            table#content.table
+                thead.thead-default
+                    tr
+                        th #
+                        th Title
+                        th Authors
+                        th Date
+                        th More Info
+                        th Delete
+                tbody#articles

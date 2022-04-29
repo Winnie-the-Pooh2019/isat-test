@@ -1,0 +1,71 @@
+[
+    {
+        "_id": 1,
+        "name": "Big Floppa",
+        "message": "awesome story with outstanding conclusions about humanity future",
+        "mark": 9
+    },
+    {
+        "_id": 2,
+        "name": "tiny-cat Chmonya",
+        "message": "there are to many letters. don't wanna read letters. WHERE ARE PICTURES!",
+        "mark": 1
+    },
+    {
+        "_id": 3,
+        "name": "Wilhelm the 5th",
+        "message": "i don't like shaurma. disgusting",
+        "mark": 1
+    },
+    {
+        "_id": 4,
+        "name": "Gordey",
+        "message": "I like pelmeny",
+        "mark": 10
+    },
+
+    {
+        "_id": 5,
+        "name": "FireFox",
+        "message": "save free browser world",
+        "mark": 10
+    },
+
+    {
+        "_id": 6,
+        "name": "iphone",
+        "message": "You will not install android apps here",
+        "mark": 1
+    },
+    {
+        "_id": 7,
+        "name": "Bill Gates",
+        "message": "Its awesome to bee able to run any app in any device",
+        "mark": 10
+    },
+    {
+        "_id": 8,
+        "name": "Sergey Brin",
+        "message": "we got our goal to provide cross-platform apps to people",
+        "mark": 10
+    },
+
+    {
+        "_id": 9,
+        "name": "Friderich Engels",
+        "message": "Hey! I contributed in this one too",
+        "mark": 1
+    },
+    {
+        "_id": 10,
+        "name": "Vladimir Ulyanov",
+        "message": "Thanks for the tutorial",
+        "mark": 9
+    },
+    {
+        "_id": 11,
+        "name": "Elzin",
+        "message": "I guess, it should be in fiction dept",
+        "mark": 2
+    }
+]

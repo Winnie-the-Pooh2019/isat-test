@@ -1,0 +1,58 @@
+[
+    {
+        "_id": 1,
+        "name": "Cooking pelmeny",
+        "authors": [
+            "Floppa the Cat",
+            "Boris Cheburek"
+        ],
+        "date": "2020-11-01",
+        "tags": [2],
+        "content": "hello today we will cook pelmeny",
+        "reviews": [
+            1, 2, 3, 4
+        ]
+    },
+    {
+        "_id": 2,
+        "name": "Google monopoly in web-browser world",
+        "authors": [
+            "state anti-monopoly department"
+        ],
+        "date": "2019-06-07",
+        "tags": [3],
+        "content": "google made almost all web developers to support only chrome",
+        "reviews": [
+            5
+        ]
+    },
+    {
+        "_id": 3,
+        "name": "Android emulator evil or safety?",
+        "authors": [
+            "unknown"
+        ],
+        "date": "2000-01-01",
+        "tags": [1],
+        "content": "somewhere somebody presented unique device to emulate android",
+        "reviews": [
+            6, 7, 8
+        ]
+    },
+    {
+        "_id": 4,
+        "name": "Capital",
+        "authors": [
+            "Karl Marx"
+        ],
+        "date": "1867-09-14",
+        "tags": [
+            1,
+            3
+        ],
+        "content": "communism is cool",
+        "reviews": [
+            9, 10, 11
+        ]
+    }
+]

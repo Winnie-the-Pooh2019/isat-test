@@ -1,0 +1,33 @@
+doctype html
+html(lang='en')
+    head
+        link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css')
+        meta(charset='UTF-8')
+        title Journals
+        script
+            include javascripts/index.js
+    body
+        .modal-dialog
+            .modal-content
+                .modal-body
+                    div
+                        table#content.table
+                            thead.thead-default
+                                tr
+                                    th Title
+                                    th Authors
+                                    th Date
+                                    th Rating
+                                    th Comments
+
+                            tbody#articles
+                                 each article in articles
+                                    tr
+                                        td #{article.name}
+                                        td
+                                            ul.list-group
+                                                each author in article.authors
+                                                    li.list-group-item #{author}
+                                        td #{article.date}
+                                        td #{article.averageMark}
+                                        td #{article.comments}

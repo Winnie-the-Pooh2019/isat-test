@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css')
+    title #{article.name}
+<meta charset="utf-8" />
+</head>
+body
+    .modal-dialog
+        .modal-content
+            .modal-header
+                div.jumbotron
+                    h2.display-3 #{article.name}
+                    p.lead Статья № #{article._id}
+                    hr.my-2
+                    p Опубликовано: #{article.date}
+
+                div
+                    h4.card-header Авторы:
+                    ul.list-group
+                        each author in article.authors
+                            li.list-group-item #{author}
+                br
+                div
+                    h5.card-header Теги:
+                    ul.list-group
+                        each tag in article.tags
+                            li.list-group-item #{tag.name}
+
+                hr
+                div.form-group
+                    h4 Содержание:
+                    textarea.form-control(disabled=true) #{article.content}
+                h3.card-header Отзывы
+                ul.list-group
+                    each review in article.reviews
+                        li.list-group-item
+                            div.card
+                                div.card-body
+                                    h4.card-header Имя пользователя: #{review.name}
+                                    p.card-header Отзыв № (#{review._id})
+                                    p.card-text #{review.message}
+                                div.card-footer
+                                    p #{review.mark} / 10
+<html>

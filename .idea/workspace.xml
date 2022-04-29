@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="210baba5-8fd5-4955-a0ea-697024b0b717" name="Changes" comment="created rating page&#10;`(\(\&#10;(=':')&#10;(.(&quot;)(&quot;)">
+      <change beforePath="$PROJECT_DIR$/.idea/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="TypeScript File" />
+        <option value="Pug File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="286ytZS7BzHpovtQIS8V8v9nxTH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/views" />
+      <recent name="$PROJECT_DIR$/resource/views" />
+      <recent name="$PROJECT_DIR$/src/db/migration" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/db/migration" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/resource" />
+      <recent name="$PROJECT_DIR$/src/db/" />
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.app.js">
+    <configuration name="app.js" type="NodeJSConfigurationType" path-to-node="/bin/node" nameIsGenerated="true" path-to-js-file="dist/src/app.js" working-dir="$PROJECT_DIR$">
+      <method v="2">
+        <option name="TypeScript.Before.Run" enabled="true" FAIL_ON_ERROR="true" CONFIG_PATH="$PROJECT_DIR$/tsconfig.json" />
+      </method>
+    </configuration>
+    <configuration name="DockerContainer build" type="ShConfigurationType">
+      <option name="SCRIPT_TEXT" value="" />
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/docker-build.sh" />
+      <option name="SCRIPT_OPTIONS" value="-b" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="EXECUTE_IN_TERMINAL" value="true" />
+      <option name="EXECUTE_SCRIPT_FILE" value="true" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="DockerContainer push" type="ShConfigurationType">
+      <option name="SCRIPT_TEXT" value="" />
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/docker-build.sh" />
+      <option name="SCRIPT_OPTIONS" value="-p" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="EXECUTE_IN_TERMINAL" value="true" />
+      <option name="EXECUTE_SCRIPT_FILE" value="true" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="DockerContainer run" type="ShConfigurationType">
+      <option name="SCRIPT_TEXT" value="" />
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/docker-build.sh" />
+      <option name="SCRIPT_OPTIONS" value="-r" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="EXECUTE_IN_TERMINAL" value="true" />
+      <option name="EXECUTE_SCRIPT_FILE" value="true" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="docker" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="ivanch1ck/node-mongo" />
+          <option name="containerName" value="" />
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="goose" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="goose" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="migrate" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="migrate" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Docker.docker" />
+      <item itemvalue="Node.js.app.js" />
+      <item itemvalue="npm.goose" />
+      <item itemvalue="npm.start" />
+      <item itemvalue="npm.migrate" />
+      <item itemvalue="Shell Script.DockerContainer run" />
+      <item itemvalue="Shell Script.DockerContainer build" />
+      <item itemvalue="Shell Script.DockerContainer push" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.migrate" />
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="210baba5-8fd5-4955-a0ea-697024b0b717" name="Changes" comment="" />
+      <created>1650551544970</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1650551544970</updated>
+      <workItem from="1650551546325" duration="5401000" />
+      <workItem from="1650595270943" duration="1403000" />
+      <workItem from="1650597893149" duration="2582000" />
+      <workItem from="1650606216560" duration="1514000" />
+      <workItem from="1650618788751" duration="4794000" />
+      <workItem from="1650686199369" duration="1650000" />
+      <workItem from="1650688546367" duration="495000" />
+      <workItem from="1650689214986" duration="2246000" />
+      <workItem from="1650692655484" duration="11994000" />
+      <workItem from="1650708514103" duration="3478000" />
+      <workItem from="1650712049421" duration="24000" />
+      <workItem from="1650720155550" duration="160000" />
+      <workItem from="1650720813033" duration="906000" />
+      <workItem from="1650724191672" duration="884000" />
+      <workItem from="1650725223612" duration="7075000" />
+      <workItem from="1650759203515" duration="5128000" />
+      <workItem from="1650768828584" duration="8296000" />
+      <workItem from="1650789203934" duration="2605000" />
+      <workItem from="1650850015273" duration="19956000" />
+      <workItem from="1650875784564" duration="9112000" />
+      <workItem from="1650886480882" duration="22527000" />
+      <workItem from="1650935954075" duration="177000" />
+      <workItem from="1650963569168" duration="15390000" />
+      <workItem from="1651027743171" duration="296000" />
+      <workItem from="1651030429145" duration="1008000" />
+      <workItem from="1651117270695" duration="1341000" />
+    </task>
+    <task id="LOCAL-00001" summary="gitignore added">
+      <created>1650551575954</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1650551575954</updated>
+    </task>
+    <task id="LOCAL-00002" summary="gitignore changed">
+      <created>1650551663401</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1650551663401</updated>
+    </task>
+    <task id="LOCAL-00003" summary="smth">
+      <created>1650552969270</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1650552969270</updated>
+    </task>
+    <task id="LOCAL-00004" summary="smth">
+      <created>1650556873835</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1650556873835</updated>
+    </task>
+    <task id="LOCAL-00005" summary="removed directory">
+      <created>1650556973435</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1650556973435</updated>
+    </task>
+    <task id="LOCAL-00006" summary="simple db migration established">
+      <created>1650727382905</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1650727382906</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fetching data api done">
+      <created>1650776062580</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1650776062580</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added excluded dirs">
+      <created>1650776160189</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1650776160189</updated>
+    </task>
+    <task id="LOCAL-00009" summary="redirect fixed">
+      <created>1650776584092</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1650776584092</updated>
+    </task>
+    <task id="LOCAL-00010" summary="8th task done">
+      <created>1650802608186</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1650802608186</updated>
+    </task>
+    <task id="LOCAL-00011" summary="9th on the way">
+      <created>1650882609602</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1650882609602</updated>
+    </task>
+    <task id="LOCAL-00012" summary="starting to reform dao classes">
+      <created>1650884891180</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1650884891180</updated>
+    </task>
+    <task id="LOCAL-00013" summary="migrated to legacy dao">
+      <created>1650890278915</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1650890278915</updated>
+    </task>
+    <task id="LOCAL-00014" summary="insertion added">
+      <created>1650903847862</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1650903847862</updated>
+    </task>
+    <task id="LOCAL-00015" summary="lookup doesn't work properly">
+      <created>1650909396842</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1650909396842</updated>
+    </task>
+    <task id="LOCAL-00016" summary="now it does&#10;▕▔▔╲▂▂▂▂▂╱▔▔▏┈┈┈&#10;▕╲╱╱┋┋┋┋┋╲╲╱▏▕▔▏&#10;┉╲╱╭▆╮┋╭▆╮╲╱┉┉╲╲&#10;┉▕╲┉┉┉▅┉┉┉╱▏┉┉▕▕&#10;┉▕┉▔▔╰┻╯▔▔┉▏┉┉╱╱&#10;┉┈╲▂▂▂▂▂▂▂╱╲┉▕▕┉&#10;┉┉╱╰╰╰╯╯╯╮╮╮╲╱╱┉">
+      <created>1650909689154</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1650909689154</updated>
+    </task>
+    <task id="LOCAL-00017" summary="now it does&#10;▕▔▔╲▂▂▂▂▂╱▔▔▏┈┈┈&#10;▕╲╱╱┋┋┋┋┋╲╲╱▏▕▔▏&#10;┉╲╱╭▆╮┋╭▆╮╲╱┉┉╲╲&#10;┉▕╲┉┉┉▅┉┉┉╱▏┉┉▕▕&#10;┉▕┉▔▔╰┻╯▔▔┉▏┉┉╱╱&#10;┉┈╲▂▂▂▂▂▂▂╱╲┉▕▕┉&#10;┉┉╱╰╰╰╯╯╯╮╮╮╲╱╱┉">
+      <created>1650935988945</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1650935988945</updated>
+    </task>
+    <task id="LOCAL-00018" summary="beautified pages a bit&#10;(\__/)&#10;(='.'=)&#10;(&quot;)_(&quot;)">
+      <created>1650971754727</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1650971754727</updated>
+    </task>
+    <task id="LOCAL-00019" summary="created rating page&#10;`(\(\&#10;(=':')&#10;(.(&quot;)(&quot;)">
+      <created>1650982223304</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1650982223304</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="gitignore added" />
+    <MESSAGE value="gitignore changed" />
+    <MESSAGE value="smth" />
+    <MESSAGE value="removed directory" />
+    <MESSAGE value="simple db migration established" />
+    <MESSAGE value="fetching data api done" />
+    <MESSAGE value="added excluded dirs" />
+    <MESSAGE value="redirect fixed" />
+    <MESSAGE value="8th task done" />
+    <MESSAGE value="9th on the way" />
+    <MESSAGE value="starting to reform dao classes" />
+    <MESSAGE value="migrated to legacy dao" />
+    <MESSAGE value="insertion added" />
+    <MESSAGE value="lookup doesn't work properly" />
+    <MESSAGE value="now it does&#10;▕▔▔╲▂▂▂▂▂╱▔▔▏┈┈┈&#10;▕╲╱╱┋┋┋┋┋╲╲╱▏▕▔▏&#10;┉╲╱╭▆╮┋╭▆╮╲╱┉┉╲╲&#10;┉▕╲┉┉┉▅┉┉┉╱▏┉┉▕▕&#10;┉▕┉▔▔╰┻╯▔▔┉▏┉┉╱╱&#10;┉┈╲▂▂▂▂▂▂▂╱╲┉▕▕┉&#10;┉┉╱╰╰╰╯╯╯╮╮╮╲╱╱┉" />
+    <MESSAGE value="beautified pages a bit&#10;(\__/)&#10;(='.'=)&#10;(&quot;)_(&quot;)" />
+    <MESSAGE value="created rating page&#10;`(\(\&#10;(=':')&#10;(.(&quot;)(&quot;)" />
+    <option name="LAST_COMMIT_MESSAGE" value="created rating page&#10;`(\(\&#10;(=':')&#10;(.(&quot;)(&quot;)" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
